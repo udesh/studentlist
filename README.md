@@ -10,7 +10,7 @@ JBoss AS 7 or Tomcat to deploy.
 
 Please follow this steps to deploy the web application.
 
-1. Clone the git repository for download the zip.
+1. Clone the git repository or download the zip.
 
 2. Extract the zip file if needed and build the project using maven ( mvn clean install -Dmaven.test.skip=true )
 
@@ -19,6 +19,7 @@ Please follow this steps to deploy the web application.
 4. Now you need to add the MongoDB database details appropriately.
 com.studentlist.config package >> ApplicationConfig class >> mongoTemplate() - ( https://github.com/udesh/studentlist/blob/master/src/main/java/com/studentlist/config/ApplicationConfig.java )
 Add relevant details that need to access the MongoDB database.
+Build and package the project and get the ROOT.war inside the target folder.
 
 5.The web application can be deploy in jboss 7 or Tomcat as needed.
 
