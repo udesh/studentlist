@@ -1,12 +1,11 @@
 This is a simple web application implemented to perform create , read , update and delete student profile details.
------------------------------------Technical Approach-----------------
 I used these technologies for this web application.
-Java (JEE, Spring)
-Javascript ( AngularJS)
-Bootstrap for styling.
-RESTful
-NoSQL Database (MongoDB)
-Maven
+Java (JEE, Spring) ,
+Javascript ( AngularJS) ,
+Bootstrap for styling ,
+RESTful Spring Controller ,
+NoSQL Database (MongoDB) ,
+Maven 3.2.2 to build and package ,
 JBoss AS 7 or Tomcat to deploy.
 
 Please follow this steps to deploy the web application.
