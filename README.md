@@ -8,6 +8,10 @@ NoSQL Database (MongoDB) ,
 Maven 3.2.2 to build and package ,
 JBoss AS 7 or Tomcat to deploy.
 
+The Application deployed in OpenShift jboss application server environment 
+
+http://studentlist-meritsbook.rhcloud.com/
+
 Please follow this steps to deploy the web application.
 
 1. Clone the git repository or download the zip.
