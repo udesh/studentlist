@@ -1,0 +1,29 @@
+<form novalidate class="form-horizontal" ng-submit="save()">
+	<div class="control-group">
+		<label class="control-label" for="registrationNumber">Registration No:</label>
+		<div class="controls">
+                    <input type="text" ng-model="student.registrationNumber" id="registrationNumber" required/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="fullName">Full Name</label> 
+		<div class="controls">
+			<input type="text" ng-model="student.fullName" id="fullName" required/>
+		</div>
+	</div>
+        <div class="control-group">
+		<label class="control-label" for="address">Address</label>
+		<div class="controls">
+                    <input type="text" ng-model="student.address" id="address" />
+		</div>
+	</div>
+        <div class="control-group">
+		<label class="control-label" for="email">E-mail</label>
+		<div class="controls">
+                    <input type="email" ng-model="student.email" id="email" />
+		</div>
+	</div>
+	<div class="control-group">
+		<button id="save" class="btn btn-primary">Submit</button>
+	</div>
+</form>
